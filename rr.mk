@@ -27,7 +27,6 @@ $(call inherit-product, device/xiaomi/libra/device.mk)
 
 # Inherit some common RR stuff.
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
-$(call inherit-product, hardware/qcom/msm8994/msm8992.mk)
 
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := Xiaomi
