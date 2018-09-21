@@ -41,7 +41,7 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT"
 
 # Copyright headers and guards
-write_headers
+write_headers "libra"
 
 # The standard blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt
